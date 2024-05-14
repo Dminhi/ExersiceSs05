@@ -1,0 +1,199 @@
+/* styles.css */
+
+/* Container của form */
+
+/* styles.css */
+
+/* Container của navbar */
+
+.nar-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  color: white;
+  gap: 5px;
+}
+
+/* Button Thêm mới sinh viên */
+
+.nar-bar button:nth-of-type(1) {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Button Tìm kiếm */
+
+.nar-bar button:nth-of-type(3) {
+  background-color: #ff6600;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* Input Search */
+
+.nar-bar input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  margin: 0 10px;
+}
+
+/* Select Sắp xếp */
+
+.nar-bar select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 150px;
+}
+
+/* .nar-bar {
+  display: flex;
+  justify-content: space-between;
+} */
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+/* Tiêu đề form */
+
+h2 {
+  margin-bottom: 20px;
+}
+
+/* Label cho input */
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.sex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Input và Textarea */
+
+input[type="text"],
+input[type="number"],
+textarea {
+  width: calc(100% - 20px);
+  /* Trừ đi padding để đảm bảo input không tràn ra ngoài */
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Radio buttons */
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+/* Button Submit */
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* styles.css */
+
+/* Bảng */
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Tiêu đề bảng */
+
+th {
+  background-color: white;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+/* Dòng trong bảng */
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+/* Ô trong bảng */
+
+td {
+  padding: 8px;
+}
+
+/* Button trong ô */
+
+td button {
+  background-color: #4caf50;
+  color: white;
+  padding: 6px 10px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  margin-right: 5px;
+}
+
+td button:hover {
+  background-color: #45a049;
+}
+
+/* Định dạng nút xóa */
+
+.delete-btn {
+  background-color: #f44336;
+}
+
+.delete-btn:hover {
+  background-color: #da190b;
+}
+
+/* Định dạng nút sửa */
+
+.edit-btn {
+  background-color: #2196f3;
+}
+
+.edit-btn:hover {
+  background-color: #0b7dda;
+}
